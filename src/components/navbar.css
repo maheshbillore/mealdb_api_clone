@@ -1,0 +1,28 @@
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(93, 93, 167);
+
+}
+
+.nav_bar .items{ 
+    text-decoration: none; 
+    margin:0 5px 0 5px;
+    color: white;
+    font-size: 15px; 
+    padding: 10px; 
+    background-color: black;
+}
+
+.nav_bar .items:hover{
+    background-color: gray;
+    padding: 10px; 
+}
+.nav_bar .left{
+    text-decoration: none;
+    color: white;
+    font-size: 15px; 
+    padding: 10px; 
+    background-color: black;
+}
